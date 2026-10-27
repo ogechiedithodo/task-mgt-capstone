@@ -14,7 +14,7 @@ spec:
     spec:
         containers:
         - name: task-mgt-api
-          image: ogdev1/task-mgt-api:latest
+          image: ogdev1/task-mgt-api:1.0.0
           ports:
             - containerPort: 8000
           envFrom:
